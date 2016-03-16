@@ -19,7 +19,6 @@ app.get('/', function(req, res) {
 
 app.listen(8080, 'localhost', function(err) {
   if (err) {
-    console.log(err);
     return;
   }
 
